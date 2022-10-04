@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
     background-color: rgb(180, 208, 231);
     height: 700px;
@@ -59,11 +63,11 @@ h1{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    height: 45em;
+    height: 60em;
 }
 
-.card{
-  
+.list-dati{
+    
 }
 
 .card-dati{
@@ -82,9 +86,13 @@ h1{
     height: 100%;
 }
 
-.info-produzione{
+.info-promozione{
     display: flex;
     padding-bottom: 1em;
+}
+
+.info{
+    padding-left: 1em;
 }
 
 .buttom-dati{
