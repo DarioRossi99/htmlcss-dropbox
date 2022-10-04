@@ -247,6 +247,20 @@ nav{
     margin: auto;
 }
 
+.intro-users{
+    font-size: x-large;
+    max-width: 920px;
+    margin: auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.link-users{
+    max-width: 920px;
+    margin: auto;
+    padding-bottom: 4em;
+}
+
 .tessera{
     border: 1px solid #dcdcdc;
     width: 17em;
