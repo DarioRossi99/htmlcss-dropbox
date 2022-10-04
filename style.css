@@ -14,11 +14,22 @@ header{
     height: 750px;
 }
 
+h1{
+    text-align: center;
+    font-size: xxx-large;
+    padding-bottom: 2em;
+    font-family: system-ui;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
 .buttom{
     background-color: rgb(0, 97, 255);
     color: white;
     padding: 5px 15px;
-    width: 15em;
+    max-width: 15em;
 }
 
 #navbuttom{
@@ -32,11 +43,9 @@ header{
     width: 100%;
 }
 
-h1{
-    text-align: center;
-    font-size: xxx-large;
-    padding-bottom: 2em;
-    font-family: system-ui;
+#buttompartner{
+    padding: 1em;
+    background-color: white;
 }
 
 .head{
@@ -63,20 +72,52 @@ h1{
 }
 
 .container-select{
-    width: 920px;
+    max-width: 920px;
     display: flex;
     padding: 40px 0;
     margin: auto;
     gap: 1em;
 }
 
+.azienda{
+    max-width: 920px;
+    display: flex;
+    padding: 10px 0;
+    margin: auto;
+    margin-top: 2em;
+    border: 1px solid lightgray;
+    gap: 1em;
+    justify-content: center
+    
+}
+
+.container-azienda{
+    max-width: 920px;
+    display: flex;
+    padding: 1em;
+    margin: auto;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.container-consigli{
+    max-width: 920px;
+    padding: 1em;
+    margin: auto;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgrey;
+}
+
 .container-main{
-    width: 920px;
+    max-width: 920px;
     padding: 40px 0;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    height: 65em;
+    height: 70em;
 }
 
 .list{
@@ -86,7 +127,7 @@ h1{
 
 .card-dati{
     border: 1px solid lightgray;
-    width: 18em;
+    max-width: 18em;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -94,7 +135,7 @@ h1{
 
 .dati{
     border: 1px solid lightgray;
-    width: 18em;
+    max-width: 18em;
     justify-content: center;
     padding: 10px;
     height: 100%;
@@ -129,7 +170,7 @@ h1{
 .line{
     padding-top: 3em;
     padding-bottom: 3em;
-    width: 30%;
+    max-width: 30%;
     color: lightgray;
 }
 
@@ -146,7 +187,7 @@ h3{
 }
 
 .jumbo{
-    width: 70%;
+    max-width: 70%;
     display: block;
 }
 
@@ -168,3 +209,46 @@ nav{
     word-spacing: 1em;
 }
 
+.partner{
+    margin: 0 auto;
+    padding-top: 10em;
+    padding-bottom: 15em;
+    display: flex;
+    max-width: 920px;
+}
+
+.contesto{
+    height: 100%;
+    padding-left: 13em;
+    padding-top: 3em;
+    flex-basis: 60%
+}
+
+.foto{
+    height: 300px;
+    flex-basis: 35%;
+}
+
+.container-dropoption{
+    margin: 0 auto;
+    padding-top: 10em;
+    display: flex;
+    max-width: 920px;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+
+
+.intro-dropoption{
+    display: flex;
+    font-size: x-large;
+    max-width: 920px;
+    margin: auto;
+}
+
+.tessera{
+    border: 1px solid #dcdcdc;
+    width: 17em;
+    float: left;
+}
