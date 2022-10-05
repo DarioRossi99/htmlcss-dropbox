@@ -59,6 +59,32 @@ button:hover{
     background-color: rgb(180, 208, 231)
 }
 
+#barrafinenav{
+    display: flex;
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 920px;
+    color: white;
+    background-color: black;
+}
+
+#finenav{
+    background-color: rgb(0, 0, 0);
+}
+
+#linenav{
+    margin-left: 25em;
+    max-width: 8%;
+    color: rgb(255, 255, 255);
+}
+
+#fininav{
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    max-width: 920px;
+}
+
 .head{
     margin: 0 auto;
     max-width: 1200px;
@@ -274,7 +300,6 @@ nav{
 
 .tessera{
     width: 17em;
-    float: left;
 }
 
 .container-ditte{
@@ -310,5 +335,35 @@ nav{
 }
 
 .quest{
-    
+    max-width: 920px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: auto;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.containerfoot{
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    max-width: 920px;
+    margin-top: 8em;
+}
+
+.lista{
+    height: 300px;
+    flex-basis: 20%;
+    font-size: medium;
+    color: white
+}
+
+.bgfoot{
+    background-color: black;
+}
+
+.strong{
+    font-size: x-large;
 }
