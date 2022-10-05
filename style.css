@@ -43,9 +43,20 @@ button:hover{
     width: 100%;
 }
 
+#button-prova{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    border-color: white;
+}
+
 #buttompartner{
     padding: 1em;
     background-color: white;
+    border-color: white;
+}
+
+#bgcolor{
+    background-color: rgb(180, 208, 231)
 }
 
 .head{
@@ -262,7 +273,42 @@ nav{
 }
 
 .tessera{
-    border: 1px solid #dcdcdc;
     width: 17em;
     float: left;
+}
+
+.container-ditte{
+}
+
+.ditte{
+    margin: 0 auto;
+    padding-top: 10em;
+    display: flex;
+    max-width: 920px;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+.prova-gratuita{
+    max-width: 920px;
+    display: flex;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    margin: auto;
+    gap: 1em;
+    justify-content: space-between;
+    background-color: rgb(180, 208, 231);
+}
+
+.container-domande{
+    max-width: 920px;
+    display: flex;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    margin: auto;
+    gap: 1em;
+}
+
+.quest{
+    
 }
